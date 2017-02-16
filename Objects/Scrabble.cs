@@ -23,7 +23,7 @@ namespace ScrabbleGame
     public List<string> SplitWords()
     {
       List<char> _inputList = new List<char>{};
-      char[] inputArray = _inputWords.ToCharArray();
+      char[] inputArray = _inputWords.ToLower().ToCharArray();
 
       foreach (char letter in inputArray)
       {
@@ -33,19 +33,6 @@ namespace ScrabbleGame
       var result = _inputList.Select(c => c.ToString()).ToList();
       return result;
     }
-
-    // public bool ContainsA(List<string> result)
-    // {
-    //   foreach(string letter in result)
-    //   {
-    //     if(letter == "a")
-    //     {
-    //     _score =1;
-    //     }
-    //   }
-    //   if(_score == 1);
-    //   { return true ;}
-    // }
 
     public int ScoreForA(List<string> result)
     {

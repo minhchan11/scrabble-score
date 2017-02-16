@@ -18,16 +18,7 @@ namespace ScrabbleGame
     //Assert
     Assert.Equal(outputString,verifyString);
   }
-  // [Fact]
-  // public void SplitWords_UsersInputWords_true()
-  // {
-  //   //Arrange
-  //   string inputWords = "cat";
-  //   Scrabble testScrabble = new Scrabble(inputWords);
-  //   List<string> outputString = testScrabble.SplitWords();
-  //   //Assert
-  //   Assert.Equal(true,testScrabble.ContainsA(outputString));
-  // }
+  
   [Fact]
   public void SplitWords_UsersInputWords_ReturnScoreOne()
   {
