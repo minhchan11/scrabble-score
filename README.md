@@ -20,12 +20,48 @@
 * The player will input a word and the program will split the word into separate characters
   * Input: dog
   * Output: d, o, g
-* The separate characters will get compared to see which letter is a
+* The program will check the separate characters to see which letter is "a","i","e","o","u","l","n","r","s","t"
   * Input: cat
   * Output: true
-* The letter a will be associated with a numeric value
+* The letter "a","i","e","o","u","l","n","r","s","t" will be associated with a numeric value
   * Input: cat
-  * Output: a = 1
+  * Output: score = 2;
+* The program will check the separate characters to see which letter is "d", "g"
+  * Input: immigrants
+  * Output: true
+* The letter "d", "g" will be associated with a numeric value
+  * Input: immigrants
+  * Output: score = 9;
+* The program will check the separate characters to see which letter is "d", "g"
+  * Input: immigrants
+  * Output: true
+* The letter "d", "g" will be associated with a numeric value
+  * Input: immigrants
+  * Output: score = 9;
+* The program will check the separate characters to see which letter is "f", "h", "v", "w", "y"
+  * Input: immigrants
+  * Output: true
+* The letter "f", "h", "v", "w", "y" will be associated with a numeric value
+  * Input: immigrants
+  * Output: score = 9;
+* The program will check the separate characters to see which letter is "k"
+  * Input: immigrants
+  * Output: true
+* The letter "k" will be associated with a numeric value
+  * Input: immigrants
+  * Output: score = 9;
+* The program will check the separate characters to see which letter is "j" and "x"
+  * Input: jax
+  * Output: true
+* The letter "j" and "x" will be associated with a numeric value
+  * Input: jax
+  * Output: score = 17;
+* The program will check the separate characters to see which letter is "q" and "z"
+  * Input: quiz
+  * Output: true
+* The letter "q" and "z" will be associated with a numeric value
+  * Input: quiz
+  * Output: score = 22;
 
 
 ## Known Bugs
